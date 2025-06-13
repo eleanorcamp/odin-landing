@@ -1,3 +1,6 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
@@ -10,15 +13,19 @@ body{
 .heading{
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0px 250px;
+    padding: 0px 200px;
     padding-bottom: 60px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .header-wrapper{
     display: flex;
     padding: 20px;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .hero-text{
@@ -34,14 +41,15 @@ body{
 .text-half{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 50%;
+    /* margin-right: auto; */
     gap: 5px;
 }
 
 .image-holder{
     display: flex;
     background-color: #818181c3;
-    width: 400px;
+    width: 50%;
     justify-content: center;
     align-items: center;
 }
@@ -148,7 +156,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 100px 30px;
 }
 
 .sign-up-card{
@@ -160,20 +168,44 @@ a{
     display: flex;
     justify-content: space-around;
     gap: 40px;
+    align-items: center;
 }
 
 .sign-up-header{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
+}
+
+.sign-up-text{
+    font-size: 15px;
+    font-weight: 200;
 }
 
 .card-text{
     color: white;
-    /* padding: 0 20px; */
+    padding: 20px 0;
+}
+
+.button2{
+    /* background-color: none; */
+    border: solid 2px white;
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 6px;
+    color: white;
+    padding: 8px;
+    /* margin-top: 5px; */
+    /* height: 30px; */
+    font-weight: 600;
 }
 
 /* ---------------------------*/
 .footer{
     background-color: #1F2937;
     color: #F9FAF8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
