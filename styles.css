@@ -1,0 +1,179 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.heading{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0px 250px;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+
+.header-wrapper{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext, a{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.text-half{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 5px;
+}
+
+.image-holder{
+    display: flex;
+    background-color: #818181c3;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7Eb;
+}
+
+.header-bar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-bar .logo{
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+
+/* ---------------------------*/
+
+.image-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 60px;
+}
+
+.card-wrapper{
+    display: flex;
+    gap: 50px;
+}
+
+.image{
+    border: solid #3882F6 4px;
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;
+}
+
+.info{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-text{
+    color: #797a7c;
+    text-align: center;
+}
+
+.section-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 0 0 50px;
+}
+
+
+/* ---------------------------*/
+
+.quote-section{
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 300px;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #575757;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* ---------------------------*/
+
+
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sign-up-card{
+    background-color: #3882F6;
+    width: 75%;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.sign-up-header{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-text{
+    color: white;
+    /* padding: 0 20px; */
+}
+
+/* ---------------------------*/
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
